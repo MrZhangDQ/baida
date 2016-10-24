@@ -1,0 +1,68 @@
+.footer-bar{
+	margin-top: 2%;
+	height: 60px;
+}
+.footer-bar ul{
+	background-color: #fff;
+	border-top: 1px solid #e0e0e0;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	bottom: 0;
+}
+.footer-bar li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.footer-bar li a {
+	display: block;
+	font-size: 1rem;
+	color: #808080;
+	padding: 8px 0;
+}
+.footer-bar li a:before{
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+	background: url('../images/icon.png') no-repeat;
+	background-size: 918px 45px;
+}
+.footer-bar li.icon-1.active a{
+	color: #e72410;
+}
+.footer-bar li.icon-1.active a:before{
+	background-position: -110px 0;
+}
+.footer-bar li.icon-1 a:before{
+	background-position: -140px 0;
+}
+.footer-bar li.icon-2.active a{
+	color: #e72410;
+}
+.footer-bar li.icon-2.active a:before{
+	background-position: -19px 0;
+}
+.footer-bar li.icon-2 a:before{
+	background-position: -198px 0;
+}
+.footer-bar li.icon-3.active a{
+	color: #e72410;
+}
+.footer-bar li.icon-3.active a:before{
+	background-position: -49px 0;
+}
+.footer-bar li.icon-3 a:before{
+	background-position: -168px 0;
+}
+.footer-bar li.icon-4.active a{
+	color: #e72410;
+}
+.footer-bar li.icon-4.active a:before{
+	background-position: -230px 0;
+}
+.footer-bar li.icon-4 a:before{
+	background-position: -79px 0;
+}
